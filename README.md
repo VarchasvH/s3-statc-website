@@ -1,4 +1,4 @@
-![Screenshot 2023-07-23 121644](https://github.com/VarchasvH/s3-statc-website/assets/100064742/64a69a59-078e-4ae7-a423-008ddb4350c5)# Creating a Static Website for a Café
+# Creating a Static Website for a Café
 In this Project, We use Amazon Simple Storage Service (Amazon S3) to build a static website and implement architectural best practices to protect and manage our data. All the project files are present int the 'static-website.zip' folder.
 
 ---
