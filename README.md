@@ -1,4 +1,4 @@
-# Creating a Static Website for a Café
+![Screenshot 2023-07-23 121644](https://github.com/VarchasvH/s3-statc-website/assets/100064742/64a69a59-078e-4ae7-a423-008ddb4350c5)# Creating a Static Website for a Café
 In this Project, We use Amazon Simple Storage Service (Amazon S3) to build a static website and implement architectural best practices to protect and manage our data. All the project files are present int the 'static-website.zip' folder.
 
 ---
@@ -52,10 +52,8 @@ For this first challenge, you will take on the role of Rohan and use Amazon S3 t
 2. Disable all public access.
     
 3. Enable static website hosting on our bucket.
-    
-    ![45bd40a7-37e3-47d7-ab35-6c257d65f5c8](https://github.com/VarchasvH/s3-statc-website/assets/100064742/2a07f4b8-63b1-4e87-9721-8a56a20c17fd)
-
-    
+    ![Screenshot 2023-07-22 182713](https://github.com/VarchasvH/s3-statc-website/assets/100064742/5a5ff298-2b2f-4889-9cc4-76527eda9ff9)
+   
 
 ### Task 3: **Uploading content to our S3 bucket**
 
@@ -69,9 +67,6 @@ For this first challenge, you will take on the role of Rohan and use Amazon S3 t
     </div>
     
 3. Your access would be denied for now.
-    
-    ![19de7d99-2e22-4715-8a3f-074326078bf9](https://github.com/VarchasvH/s3-statc-website/assets/100064742/8d6526e5-5ca9-465a-9fb2-9b33dcf15bb1)
-    
 
 ### Task 4: Creating a bucket policy to grant public read access
 
@@ -95,7 +90,8 @@ For this first challenge, you will take on the role of Rohan and use Amazon S3 t
     ```
     
 2. Confirm that the website for the café is now publicly accessible and it should look something like this.
-    ![264c0387-edaf-4441-9131-2429378cbca6](https://github.com/VarchasvH/s3-statc-website/assets/100064742/346ecdd7-36bf-4f4c-9923-b9291f93293c)
+    ![Screenshot 2023-07-23 121644](https://github.com/VarchasvH/s3-statc-website/assets/100064742/9074aa50-057f-4b3f-81f1-6c3a16895200)
+
 
 
 ---
@@ -132,7 +128,8 @@ Now that you enabled versioning, you realize that the size of the S3 bucket will
     * In one rule, move previous versions of all source bucket objects to S3 Standard-IA after 30 days.
         
     * In the other rule, delete previous versions of the objects after 365 days.
-        ![81b054c6-8a51-4c0c-9c81-40d9f2171beb](https://github.com/VarchasvH/s3-statc-website/assets/100064742/a5ed885f-0ca0-43e4-84b2-332740d82ae8)
+        ![Screenshot 2023-07-22 193736](https://github.com/VarchasvH/s3-statc-website/assets/100064742/ccd22f57-c484-4ce5-bc11-6d8aac1e3620)
+
 
         
 2. By doing this, we implemented the architecture best practice of defining data lifecycle management.
@@ -145,7 +142,8 @@ Now that you enabled versioning, you realize that the size of the S3 bucket will
 The next time Pakhru comes to the café, you tell her about the updates to the website. You describe the measures that you took to protect the website's static files from being accidentally overwritten or deleted. Pakhru tells you that cross-Region replication is another feature of Amazon S3 that you can also use to back up and archive critical data.
 
 ### Task 7: Enabling cross-Region replication
-![3126a1c6-ed38-40c4-b5fd-d4f0266ecb82](https://github.com/VarchasvH/s3-statc-website/assets/100064742/cfba5eff-d81e-4a93-9052-5bae00c2c2eb)
+![Screenshot 2023-07-22 194520](https://github.com/VarchasvH/s3-statc-website/assets/100064742/ebd48b38-812a-4d42-a403-0c66deb8e2a7)
+
 
 
 1. In a different Region than our source bucket, create a second bucket and enable versioning on it. The second bucket is our *destination bucket*.
