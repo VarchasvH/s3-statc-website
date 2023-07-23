@@ -23,8 +23,9 @@ Laskshita suggests to Anmol and Ribhu that they should expand community awarenes
 
 # End Goal
 At the end our architecture should look like the following example:
+![Screenshot 2023-07-23 121644](https://github.com/VarchasvH/s3-statc-website/assets/100064742/6229f846-391c-43c6-b630-38d1112cce4b)
 
-![cafe](https://github.com/VarchasvH/s3-statc-website/assets/100064742/e4ec68f9-b06e-4d25-b445-42d0e63372cf)
+
 
 # STEPS TO FOLLOW
 ## STEP 1: A Business request for the café: Launching a static website
